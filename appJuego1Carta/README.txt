@@ -19,13 +19,15 @@ La administración del puntaje, coincidencias y estado del juego se gestiona med
 ----------------------------------------------------
 
 /main.m  
-Punto de entrada de la aplicación. Inicializa AppDelegate y activa el ciclo estándar de ejecución de la app.
+Punto de entrada de la aplicación. Inicializa AppDelegate y activa el ciclo estándar de ejecución 
+de la app.
 
 /AppDelegate.h – /AppDelegate.m  
 Implementación estándar del ciclo de vida global. Configura la app, conecta escenas y establece comportamientos predeterminados de ejecución.
 
 /SceneDelegate.h – /SceneDelegate.m  
-Gestionan la ventana principal de la aplicación bajo iOS 13+. No contienen lógica particular asignada al flujo del juego.
+Gestionan la ventana principal de la aplicación bajo iOS 13+. No contienen lógica particular asignada
+al flujo del juego.
 
 /ViewController.h  
 Archivo de interfaz del controlador principal. Contiene:
